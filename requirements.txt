@@ -4,3 +4,4 @@ numpy==1.26.2
 transformers==4.37.2
 sentencepiece==0.1.99
 scikit-learn
+TensorFlow
