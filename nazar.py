@@ -8,7 +8,7 @@ import joblib
 # HuggingFace API Setup
 # ---------------------
 API_URL = "https://api-inference.huggingface.co/models/HooshvareLab/bert-fa-base-uncased-sentiment-snappfood"
-headers = {"Authorization": f"Bearer {st.secrets['HF_API_KEY']}"}
+headers = {"Authorization": f"Bearer {st.secrets['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']}"}
 
 def get_sentiment(text):
     res = requests.post(API_URL, headers=headers, json={"inputs": text}).json()
