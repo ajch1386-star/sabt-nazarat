@@ -25,9 +25,9 @@ sen = pipeline('sentiment-analysis',model='HooshvareLab/bert-fa-base-uncased-sen
 
 st.title('ویرایشگر نظر خریدار')
 sent =  st.text_input('نظر خود را راجب کالا وارد کنید')
-ops = st.slider('تعداد نقاط قوت را مشخص کنید',[1,2,3])
-neg = st.slider('تعداد نقاط ضعف را مشخص کنید',[1,2,3])
-score = st.slider('امتیاز کالا',[1,2,3,4,5])
+ops = st.slider('تعداد نقاط قوت را مشخص کنید',1,2,3)
+neg = st.slider('تعداد نقاط ضعف را مشخص کنید',1,2,3)
+score = st.slider('امتیاز کالا',1,2,3,4,5)
 sentf = sen(sent)
 if sentf[0] == 'HAPPY':
   des = 1
