@@ -1,7 +1,7 @@
-streamlit==1.37.0
-pandas==2.1.4
-numpy==1.26.2
-transformers==4.37.2
-sentencepiece==0.1.99
+streamlit==1.36.0
+pandas
+numpy
 scikit-learn
-TensorFlow
+joblib
+requests
+tqdm
