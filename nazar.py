@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1BM3Tb3gO0zJ0imCfA88FG2kjyTN_3PoH
 """
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
-import torch
 from sklearn.metrics import precision_score
 from sklearn.linear_model import LogisticRegression as lr
 from sklearn.model_selection import train_test_split
